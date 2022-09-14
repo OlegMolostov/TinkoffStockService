@@ -12,6 +12,8 @@ import ru.tinkoff.invest.openapi.okhttp.OkHttpOpenApi;
 @EnableConfigurationProperties(ApiConfig.class)
 @RequiredArgsConstructor
 public class ApplicationConfig {
+
+
     private final ApiConfig apiConfig;
 
     @Bean
